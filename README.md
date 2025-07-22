@@ -4,7 +4,5 @@
 
 ## Conda Environment
 ```
-conda create -n ca_cut python=3.10.12
-conda activate ca_cut
-conda install pytorch=2.3.0 torchvision pytorch-cuda=12.1 -c pytorch -c nvidia
+conda env create -f environment.yml
 ```
