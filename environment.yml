@@ -1,0 +1,14 @@
+name: ca_cut
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10.12
+  - matplotlib=3.9.2
+  - numpy=1.26.3
+  - pandas=2.2.3
+  - pillow=11.1.0
+  - PyYAML=5.4.1
+  - pytorch=2.3.0
+  - torchvision
+  - pytorch-cuda=12.1
