@@ -7,11 +7,18 @@
 git clone git@github.com:mamorobel/CA-Cut.git
 cd CA-Cut/tools/
 ```
-### Run the `setup.sh` file
+### Run the environment setup scripts
+Linux/Mac
 ```
 chmod +x setup.sh
 ```
-`Note`: if you are a <b>Windows</b> user please look into the configuration file `../configurations/enviroment.yml` and manually create your `conda` environment and install the specified packages.
+Windows
+```
+.\setup.bat
+```
+### Dataset
+
+Download the [CropFollow Dataset](https://uofi.app.box.com/s/niqh4dqc9c92tumd56fo76nd64vn53vf) by following the provided link.
 
 Also, make sure that your enviroment is structured as follows:
 ```
@@ -22,11 +29,9 @@ CA-Cut
 |──data
 |──plots
 |──tools
+|   |──setup.bat
 |   |──setup.sh
 |   |──train.py
 |──README.md
 ```
-### Dataset
-
-Download the [CropFollow Dataset](https://uofi.app.box.com/s/niqh4dqc9c92tumd56fo76nd64vn53vf) by following the provided link.
 
