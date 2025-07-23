@@ -1,0 +1,10 @@
+lr: .001
+n_epochs: 25
+batch_size: 32
+h_flip: true
+v_flip: false
+cutout: true
+ca_cut: false
+mask_size: [0.050223214, 0.050223214]
+num_cuts: 1
+model_name: "cutout"

@@ -1,0 +1,11 @@
+lr: .001
+n_epochs: 25
+batch_size: 32
+h_flip: true
+v_flip: false
+cutout: false
+ca_cut: true
+curriculum: [100, 25]
+mask_size: [60, 60]
+num_cuts: 5
+model_name: "ca_cut"

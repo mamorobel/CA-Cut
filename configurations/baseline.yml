@@ -1,0 +1,8 @@
+lr: .001
+n_epochs: 25
+batch_size: 32
+h_flip: true
+v_flip: false
+cutout: false
+ca_cut: false
+model_name: "baseline"
