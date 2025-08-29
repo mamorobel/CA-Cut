@@ -46,6 +46,44 @@ CA-Cut
 |   |──setup.bat
 |   |──setup.sh
 |   |──train.py
+|   |──rescale.py
+|   |──evaluate.py
 |──README.md
 ```
 
+### Training Model
+
+Activate miniconda env
+```
+conda activate ca_cut
+```
+
+Run the label generator script
+```
+python3 rescale.py
+```
+This creates:
+-   a csv file (`scaled_labels.csv`) for the rescaled labels 
+-   2 label folders from the original csv as well as the newly generated one: `gt_image_labels` and `scaled_image_labels`
+
+Train model
+
+1) Train baseline model:
+```
+python3 train.py --config ../configurations/baseline.yml
+```
+2) Train cutout model:
+```
+python3 train.py --config ../configurations/cutout.yml
+```
+3) Train ca-cut model:
+```
+python3 train.py --config ../configurations/ca_cut.yml
+```
+
+Each of the configuration file settings are set to the best performing values that we got from our ablation study.
+Feel free to play around with the configurations to see how model performance changes.
+
+2 plots are created and updated during training:
+1) `train_validation_loss_plot.png` - visualizes the loss on the training and validation sets during training.
+2) `validation_err_with_loss.png` - visualizes the validation loss and the prediction error on the validation set (i.e., the Euclidean distance between the ground truth and the prediction average across all channels) during training.
