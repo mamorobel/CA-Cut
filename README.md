@@ -1,6 +1,4 @@
-# CA-Cut: Crop-Aligned Cutout for Data Augmentation to Learn More Robust Under-Canopy Navigation (Accepted @ ECMR 2025)
-
-[![arXiv](https://img.shields.io/badge/arXiv-2401.12345-b31b1b.svg)](https://www.arxiv.org/abs/2507.17727)
+# CA-Cut: Crop-Aligned Cutout for Data Augmentation to Learn More Robust Under-Canopy Navigation (Accepted @ ECMR 2025) [![arXiv](https://img.shields.io/badge/arXiv-2401.12345-b31b1b.svg)](https://www.arxiv.org/abs/2507.17727)
 
 # Environment Setup
 
