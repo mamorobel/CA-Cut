@@ -12,10 +12,6 @@ Linux/Mac
 ```
 chmod +x setup.sh
 ```
-Windows
-```
-.\setup.bat
-```
 ### Dataset
 
 Download the [CropFollow Dataset](https://uofi.app.box.com/s/niqh4dqc9c92tumd56fo76nd64vn53vf) by following the provided link. Unzip the folder.
