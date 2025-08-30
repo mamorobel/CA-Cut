@@ -85,3 +85,17 @@ Feel free to play around with the configurations to see how model performance ch
 2 plots are created and updated during training:
 1) `train_validation_loss_plot.png` - visualizes the loss on the training and validation sets during training.
 2) `validation_err_with_loss.png` - visualizes the validation loss and the prediction error on the validation set (i.e., the Euclidean distance between the ground truth and the prediction average across all channels) during training.
+
+### Citation
+If you use this work in your research, please cite:
+
+```bibtex
+@misc{mamo2025cacutcropalignedcutoutdata,
+      title={CA-Cut: Crop-Aligned Cutout for Data Augmentation to Learn More Robust Under-Canopy Navigation}, 
+      author={Robel Mamo and Taeyeong Choi},
+      year={2025},
+      eprint={2507.17727},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2507.17727}, 
+}
